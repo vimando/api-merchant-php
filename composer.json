@@ -1,0 +1,35 @@
+{
+    "name": "vimando/api-merchant-php",
+    "description": "",
+    "keywords": [
+        "vimando",
+        "merchant",
+        "api"
+    ],
+    "homepage": "https://www.vimando.com",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vimando AG",
+            "homepage": "https://www.vimando.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~1.0",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~1.12"
+    },
+    "autoload": {
+        "psr-4": { "Vimando\\Api\\Merchant\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Vimando\\Api\\Merchant\\" : "test/" }
+    }
+}
