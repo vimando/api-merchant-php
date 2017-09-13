@@ -1,0 +1,8 @@
+{
+    "name": "vimando/sample-client",
+    "description": "Vimando Merchant API Client Sample",
+    "type": "project",
+    "require": {
+        "vimando/api-merchant-php": "^0.1.0"
+    }
+}
